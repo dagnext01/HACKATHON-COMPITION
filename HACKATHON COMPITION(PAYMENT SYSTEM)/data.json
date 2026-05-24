@@ -1,0 +1,147 @@
+{
+  "banks": [
+    "Bank of Abyssinia",
+    "Zemen Bank",
+    "Awash Bank"
+  ],
+  "students": [
+    {
+      "studentId": "RCD/0183/2017",
+      "password": "rcd2017",
+      "fullName": "Rahel Demissie",
+      "department": "Computer Science",
+      "programCode": "RCD",
+      "semester": "Semester 2",
+      "academicYear": "2026",
+      "costPerCredit": 100,
+      "courses": [
+        {
+          "courseCode": "CS201",
+          "courseTitle": "Data Structures",
+          "creditHours": 4
+        },
+        {
+          "courseCode": "CS203",
+          "courseTitle": "Database Systems",
+          "creditHours": 3
+        },
+        {
+          "courseCode": "CS205",
+          "courseTitle": "Operating Systems",
+          "creditHours": 3
+        },
+        {
+          "courseCode": "CS207",
+          "courseTitle": "Computer Networks",
+          "creditHours": 3
+        },
+        {
+          "courseCode": "CS209",
+          "courseTitle": "Web Development",
+          "creditHours": 3
+        }
+      ],
+      "totalFeeDue": 1600,
+      "amountPaid": 0,
+      "paymentStatus": "Unpaid"
+    },
+    {
+      "studentId": "RBA/0091/2018",
+      "password": "rba2018",
+      "fullName": "Samuel Bekele",
+      "department": "Business Administration",
+      "programCode": "RBA",
+      "semester": "Semester 1",
+      "academicYear": "2026",
+      "costPerCredit": 90,
+      "courses": [
+        {
+          "courseCode": "BA101",
+          "courseTitle": "Principles of Management",
+          "creditHours": 3
+        },
+        {
+          "courseCode": "BA103",
+          "courseTitle": "Accounting Basics",
+          "creditHours": 3
+        },
+        {
+          "courseCode": "BA105",
+          "courseTitle": "Business Communication",
+          "creditHours": 2
+        },
+        {
+          "courseCode": "BA107",
+          "courseTitle": "Marketing Fundamentals",
+          "creditHours": 3
+        },
+        {
+          "courseCode": "BA109",
+          "courseTitle": "Microeconomics",
+          "creditHours": 3
+        }
+      ],
+      "totalFeeDue": 1260,
+      "amountPaid": 1260,
+      "paymentStatus": "Paid"
+    },
+    {
+      "studentId": "RCE/0114/2019",
+      "password": "rce2019",
+      "fullName": "Martha Tadesse",
+      "department": "Civil Engineering",
+      "programCode": "RCE",
+      "semester": "Semester 3",
+      "academicYear": "2026",
+      "costPerCredit": 110,
+      "courses": [
+        {
+          "courseCode": "CE301",
+          "courseTitle": "Structural Analysis",
+          "creditHours": 3
+        },
+        {
+          "courseCode": "CE303",
+          "courseTitle": "Fluid Mechanics",
+          "creditHours": 3
+        },
+        {
+          "courseCode": "CE305",
+          "courseTitle": "Surveying",
+          "creditHours": 2
+        },
+        {
+          "courseCode": "CE307",
+          "courseTitle": "Engineering Materials",
+          "creditHours": 3
+        },
+        {
+          "courseCode": "CE309",
+          "courseTitle": "Transportation Engineering",
+          "creditHours": 3
+        }
+      ],
+      "totalFeeDue": 1540,
+      "amountPaid": 330,
+      "paymentStatus": "Partial"
+    }
+  ],
+  "transactions": [
+    {
+      "transactionId": "TXN-20260523-0001",
+      "studentId": "RBA/0091/2018",
+      "amountPaid": 1260,
+      "bankName": "Zemen Bank",
+      "timestamp": "2026-05-22T08:30:00.000Z",
+      "receiptToken": "0af53f9ec4ca7a7ed96b9599886f2488"
+    },
+    {
+      "transactionId": "TXN-20260523-0002",
+      "studentId": "RCE/0114/2019",
+      "amountPaid": 330,
+      "bankName": "Awash Bank",
+      "timestamp": "2026-05-22T10:45:00.000Z",
+      "receiptToken": "51b33f8ebf6ff2cf4f5aaf31c5d3f601"
+    }
+  ]
+}

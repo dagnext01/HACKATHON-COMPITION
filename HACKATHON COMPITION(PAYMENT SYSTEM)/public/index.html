@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniPay | Student Payment Portal</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Hackathon MVP</p>
+          <h1>UniPay Student Portal</h1>
+          <p class="hero-copy">
+            Students sign in with their university ID and password, review their semester fee slip, and pay through approved partner banks.
+          </p>
+        </div>
+        <a class="secondary-link" href="/staff.html">Open Staff Verification</a>
+      </header>
+
+      <main class="grid">
+        <section class="panel">
+          <h2>Student Login</h2>
+          <form id="lookup-form" class="stack">
+            <label for="studentId">Student ID</label>
+            <input id="studentId" name="studentId" placeholder="Example: RCD/0183/2017" required />
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" placeholder="Enter university password" required />
+            <button type="submit">Lookup Profile</button>
+          </form>
+          <p class="helper">Demo login: `RCD/0183/2017` with password `rcd2017`</p>
+          <p class="helper">Other demo accounts: `RBA/0091/2018` / `rba2018`, `RCE/0114/2019` / `rce2019`</p>
+        </section>
+
+        <section class="panel" id="result-panel">
+          <h2>Student Record</h2>
+          <div id="message" class="empty-state">
+            Enter a university student ID and password to load semester payment details.
+          </div>
+          <div id="student-card" class="hidden"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+  </html>

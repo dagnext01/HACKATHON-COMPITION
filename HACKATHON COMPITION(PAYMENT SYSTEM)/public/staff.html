@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniPay | Staff Verification</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Registrar & Department</p>
+          <h1>Payment Verification Dashboard</h1>
+          <p class="hero-copy">
+            Search a university student ID and confirm whether semester clearance is completed.
+          </p>
+        </div>
+        <a class="secondary-link" href="/index.html">Back to Student Portal</a>
+      </header>
+
+      <main class="grid single">
+        <section class="panel">
+          <h2>Search Student</h2>
+          <form id="staff-form" class="stack">
+            <label for="staffStudentId">Student ID</label>
+            <input id="staffStudentId" name="studentId" placeholder="Example: RCD/0183/2017" required />
+            <button type="submit">Verify Clearance</button>
+          </form>
+          <p class="helper">Example student IDs: `RCD/0183/2017`, `RBA/0091/2018`, `RCE/0114/2019`</p>
+          <div id="staff-result" class="empty-state top-gap">
+            Search for a student to view payment status.
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/staff.js"></script>
+  </body>
+  </html>
